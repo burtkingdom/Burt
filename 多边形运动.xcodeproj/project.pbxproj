@@ -15,6 +15,7 @@
 		4EDFADE7204E6658005D7CAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDFADE5204E6658005D7CAB /* LaunchScreen.storyboard */; };
 		4EDFADF2204E6658005D7CAB /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDFADF1204E6658005D7CAB /* _____Tests.m */; };
 		4EDFADFD204E6658005D7CAB /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDFADFC204E6658005D7CAB /* _____UITests.m */; };
+		4EDFAE0C204E6678005D7CAB /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDFAE0B204E6678005D7CAB /* DrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4EDFADF8204E6658005D7CAB /* 多边形运动UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "多边形运动UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDFADFC204E6658005D7CAB /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		4EDFADFE204E6658005D7CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDFAE0A204E6678005D7CAB /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		4EDFAE0B204E6678005D7CAB /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				4EDFADDB204E6658005D7CAB /* AppDelegate.m */,
 				4EDFADDD204E6658005D7CAB /* ViewController.h */,
 				4EDFADDE204E6658005D7CAB /* ViewController.m */,
+				4EDFAE0A204E6678005D7CAB /* DrawView.h */,
+				4EDFAE0B204E6678005D7CAB /* DrawView.m */,
 				4EDFADE0204E6658005D7CAB /* Main.storyboard */,
 				4EDFADE3204E6658005D7CAB /* Assets.xcassets */,
 				4EDFADE5204E6658005D7CAB /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			files = (
 				4EDFADDF204E6658005D7CAB /* ViewController.m in Sources */,
 				4EDFADDC204E6658005D7CAB /* AppDelegate.m in Sources */,
+				4EDFAE0C204E6678005D7CAB /* DrawView.m in Sources */,
 				4EDFADD9204E6658005D7CAB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
